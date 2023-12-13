@@ -1,5 +1,5 @@
 pnpm install ai
-
+llllll
 // ./app/api/chat/route.js
 import OpenAI from 'openai';
 import { OpenAIStream, StreamingTextResponse } from 'ai';
@@ -20,7 +20,7 @@ export async function POST(req) {
   const stream = OpenAIStream(response);
   return new StreamingTextResponse(stream);
 }
-
+lllllll
 // ./app/page.js
 'use client';
 
